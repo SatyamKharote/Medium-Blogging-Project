@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(163, 163, 163);;
+    margin: 0px 50px 0px 50px;
+}
+
+/* Logo styling */
+
+.logo{
+    position: relative;
+}
+.logo .logo-name{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    padding:  0 50px;
+    margin-top: 50px;
+}
+.logo .start-btn{
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    font-weight: bold;
+    color: beige;
+    background-color: rgb(58, 56, 56);
+    cursor: pointer;
+    outline: none;
+    width: 113px;
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    right: 240px;
+    margin-top: 20px;
+    padding-top: 1px;
+} 
+.logo .start-btn:hover{
+    color: aqua;
+}  
+.logo .input-search input{
+    border: none;
+    background: #fff;
+    width: 160px;
+    box-sizing: border-box;
+    margin-left: 1570px;
+    margin-top: 20px;
+
+}
+.logo .input-search .search-icon{
+    margin-top: -28px;
+    margin-left: 1690px;
+}
+input{
+    height: 39px;
+    border-radius: 5px;
+    right: 240px;
+    padding-left: 20px;
+}
+
+/* End Logo styling */
+
+/* Total views & users styling */
+
+.total-views{
+    margin-top: 120px;
+    margin-left: 50px;
+    background-color: rgb(243, 237, 237);
+    width: 90px;
+    cursor: pointer;
+}
+.total-users{
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: rgb(243, 237, 237);
+    width: 90px;
+    cursor: pointer;
+}
+
+/* End Total views & users styling */
+
+
+/* navbar styling */
+
+.nav{
+    background-color: rgb(68, 67, 67);
+    padding: 0px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding-bottom: 1px;
+}
+.nav-box {
+    padding: 15px;
+    padding-left: 33px;
+    margin-top: 6px;
+}
+.nav-box a{
+    text-decoration: none;
+    color: beige;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: rgb(58, 56, 56);
+    margin-top: 1px;
+    padding: 9px;
+}
+.nav-box a:hover{
+    color: aquamarine;
+}
+
+/* End navbar styling */
+
+hr{
+    border: 5px solid rgb(210, 211, 210);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Blog Section-1 styling */
+.section-1{
+    display: flex;
+    margin: 0 0;
+    background-color: rgb(192, 185, 185);
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    padding: 5px;
+    padding-top: 20px;
+    height: 411px;
+}
+.section-1 .blog-1{
+    text-align: left;
+    padding: 0px;
+    flex: 25%;
+    margin-left: 10px;
+}
+
+.section-1  .blog-1 img{
+   width: 400px;
+   height: 150px;
+}
+.section-1  .blog-1 h2{
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !important;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.section-1  .blog-1 h3{
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: normal;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+    padding-top: 10px;
+}
+.section-1  .blog-1 p{
+    padding-top: 10px;
+}
+.section-1  .blog-1 h4{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.section-1  .blog-2{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    justify-content: space-around;
+}
+.section-1  .blog-2 img{
+  border: 1px solid black; 
+}
+.section-1 .blog-2 .blog-content{
+    display: flex;
+}
+.section-1 .blog-2 .blog-content .text p{
+    color: rgb(93, 93, 93);
+    margin: 0 10px;
+    cursor: pointer;
+}
+.section-1  .blog-2 h3{
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: normal;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+   
+}
+.section-1  .blog-3{
+    flex:25%;
+    display: flex;
+    flex-direction: column;
+}
+.section-1  .blog-3 img{
+    width: 400px;
+    height: 150px;
+}
+.section-1  .blog-3 h2{
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !important;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.section-1  .blog-3 h3{
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: normal;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+    padding-top: 10px;
+}
+.section-1  .blog-3 p{
+    padding-top: 10px;
+    
+}
+.section-1  .blog-3 p a{
+    color: black;
+}
+.section-1  .blog-3 p a:hover{
+    color: aquamarine;
+}
+.section-1  .blog-3  h4{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* End Blog Section-1 styling */
+
+/* Blog image styling */
+.blog-image img{
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Blog Section-2 styling */
+.section-2{
+    display: flex;
+    margin: 0 0;
+    background-color: rgb(192, 185, 185);
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    padding: 5px;
+    padding-top: 20px;
+    height: 411px;
+}
+.section-2 .blog-1{
+    text-align: left;
+    padding: 0px;
+    flex: 25%;
+}
+
+.section-2  .blog-1 img{
+   width: 400px;
+   height: 150px;
+}
+.section-2  .blog-1 h2{
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !important;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.section-2  .blog-1 h3{
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: normal;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+    padding-top: 10px;
+}
+.section-2  .blog-1 p{
+    padding-top: 10px;
+}
+.section-2  .blog-1 h4{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.section-2  .blog-2{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    justify-content: space-around;
+}
+.section-2  .blog-2 img{
+  border: 1px solid black; 
+}
+.section-2 .blog-2 .blog-content{
+    display: flex;
+}
+.section-2 .blog-2 .blog-content .text p{
+    cursor: pointer;
+    color: rgb(93, 93, 93);
+    margin: 0 10px;
+}
+.section-2  .blog-2 h3{
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: normal;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+   
+}
+.section-2  .blog-3{
+    flex:25%;
+    display: flex;
+    flex-direction: column;
+}
+.section-2  .blog-3 img{
+    width: 400px;
+    height: 150px;
+}
+.section-2  .blog-3 h2{
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !important;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.section-2  .blog-3 h3{
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: normal;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+    padding-top: 10px;
+}
+.section-2  .blog-3 p{
+    padding-top: 10px;
+}
+.section-2  .blog-3 p a{
+    color: black;
+}
+.section-2  .blog-3 p a:hover{
+    color: aquamarine;
+}
+.section-2  .blog-3  h4{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* End Blog Section-2 styling */
+
+/* Section-3 styling */
+
+.section-3{
+    background-color:  rgb(68, 67, 67);
+    padding: 0px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-bottom: 1px;
+}
+.section-3 .footer{
+    padding: 15px;
+    padding-left: 33px;
+    margin-top: 6px;
+}
+.footer a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 1px;
+    padding: 9px;
+}
+.footer a:hover{
+    color: aquamarine;
+}
+.section-3 .text{
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 20px;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+}
+/* .social-icons a:hover::after{
+    content: '';
+    position: absolute;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 50%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 16px;
+} */
+.social-icons a:hover{
+    opacity: .7;
+}
+.social-icons .fa-facebook{
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    cursor: pointer;
+
+}
+.social-icons .fa-twitter{
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    cursor: pointer;
+
+}
+.social-icons .fa-google{
+    background: rgb(187, 43, 43);
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    cursor: pointer;
+
+}
+.social-icons .fa-rss{
+    background: orange;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    cursor: pointer;
+
+}
+.social-icons .fa-youtube{
+    background: red;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    cursor: pointer;
+
+}
+.social-icons a:hover{
+    color: aquamarine;
+}
+.copyright .container{
+    margin-top: 10px;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.copyright .container a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 10px   ;
+  
+}
+.copyright .container a:hover{
+    color: aquamarine;
+}
+
+/* End Section-3 styling */

@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(195, 195, 195);
+}
+a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: rgb(93, 93, 93);
+}
+.join-blog{
+    text-align: center;
+ 
+}
+
+
+.join-blog h1{
+    padding-top: 50px;
+}
+.join-blog h3{
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: normal;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+/* Sign Up with Facebook styling */
+
+.join-blog .facebook-icon{
+    position: absolute;
+    z-index: 1;
+    margin-top: 26px;
+    margin-left: -110px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.join-blog .loginbtn--facebook{
+    background-color: #4C69BA;
+    background-image: linear-gradient(#4C69BA, #3B55A0);
+    text-shadow: 0 -1px 0 #354c8c;
+    display: table;
+    margin: 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    
+} 
+.join-blog .loginbtn--facebook:hover{
+    opacity: .9;
+}  
+.loginbtn--facebook::before{
+
+    border-right: #364e92 1px solid;;
+  
+   
+}
+.loginbtn{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+    
+}
+ .loginbtn::before{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+    
+}
+/* End Sign Up with Facebook styling */
+
+/* Sign Up with Google styling */
+
+.join-blog .google-icon{
+    position: absolute;
+    z-index: 1;
+    margin-top: 26px;
+    margin-left: -100px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.join-blog .loginbtn--google{
+    background: rgba(255, 255, 255, 0.884);
+    color: rgb(83, 83, 83);
+    text-shadow: 0 -1px 0 #354c8c;
+    display: table;
+    margin: 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}  
+.join-blog .loginbtn--google:hover{
+    background-color: #FFF;
+} 
+.join-blog .loginbtn--google:hover{
+    color: black;
+}
+.loginbtn--google::before{
+
+    border-right: rgba(119, 115, 115, 0.904) 1px solid;
+
+   
+}
+.loginbtn{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+    
+}
+ .loginbtn::before{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+}
+
+/* End Sign Up with Google styling */
+
+/* Sign in with Facebook styling */
+
+.join-blog .facebook-icon1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 26px;
+    margin-left: -50px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.join-blog .loginbtn--facebook1{
+    background-color: #4C69BA;
+    background-image: linear-gradient(#4C69BA, #3B55A0);
+    text-shadow: 0 -1px 0 #354c8c;
+    display: table;
+    margin: 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    
+} 
+.join-blog .loginbtn--facebook1:hover{
+    opacity: .9;
+}  
+.loginbtn--facebook1::before{
+
+    border-right: #364e92 1px solid;;
+  
+   
+}
+.loginbtn{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+    
+}
+ .loginbtn::before{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+}
+
+/* End Sign in with Facebook styling */
+
+/* Sign in with Google styling */
+.join-blog .google-icon1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 26px;
+    margin-left: -50px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.join-blog .loginbtn--google1{
+    background: rgba(255, 255, 255, 0.884);
+    color: rgb(83, 83, 83);
+    text-shadow: 0 -1px 0 #354c8c;
+    display: table;
+    margin: 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}  
+.join-blog .loginbtn--google1:hover{
+    background-color: #FFF;
+} 
+.join-blog .loginbtn--google1:hover{
+    color: black;
+}
+.loginbtn--google1::before{
+
+    border-right: rgba(119, 115, 115, 0.904) 1px solid;
+
+   
+}
+.loginbtn{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+    
+}
+ .loginbtn::before{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+}
+
+/* End Sign in with Google styling */
